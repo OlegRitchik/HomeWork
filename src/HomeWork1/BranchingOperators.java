@@ -1,8 +1,6 @@
 package HomeWork1;
 
-import java.util.Objects;
-
-public class BranchingOperators1 {
+public class BranchingOperators {
     public static void main(String[] args) {
         String str1 = "Вася";
         String str2 = "Анастасия";
