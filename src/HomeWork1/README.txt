@@ -12,6 +12,10 @@ OperatorsPrecedence8.java - 2.8
 OperatorsPrecedence9.java - 2.9
 Math1.java; Math2.java; Math3.java; Math4.java; Math5.java - 3
 WeekdayVacation.java - 4
-BranchingOperators.java - 5.1
+BranchingOperator1.java - 5.1
+BranchingOperator2.java - 5.1
+BranchingOperator3.java - 5.1
+BranchingOperator4.java - 5.2
+BranchingOperator5.java - 5.2
 
 
