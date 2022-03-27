@@ -1,24 +1,35 @@
 package HomeWork1;
 
+import java.util.Scanner;
+
 public class WeekdayVacation {
-    public static boolean sleepIn;
-
     public static void main(String[] args) {
-        int a = 13;
-        int b = 12;
+        Scanner console = new Scanner (System.in);
+        System.out.println("Сейчас рабочий день?");
+        boolean weekday = console.nextBoolean();
+        System.out.println("Сейчас у вас отпуск?");
+        boolean vacation = console.nextBoolean();
 
-        if (a > 15) {
-            System.out.println("отпуск");
-        } else if (a < 10) {
-            System.out.println("можем спать дальше");
+        boolean sleep = sleepIn(weekday, vacation);
+
+        if(sleep){
+            System.out.println("Можно спать");
+        }else {
+            System.out.println("Пора вставать");
+            System.out.println("Иди на работу");
+            System.out.println("Кто будет зарабатывать");
         }
-        if (b < 1) {
-            System.out.println("рабочий день");
-        } else if (b > 13) {
-            System.out.println("рабочий день");
-        }
-        else {
-            System.out.println("пора идти на работу");
+    }
+
+    public static boolean sleepIn(boolean weekday, boolean vacation) {
+        if(weekday){
+            if(vacation){
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return true;
         }
     }
 }
