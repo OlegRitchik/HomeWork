@@ -1,6 +1,5 @@
-package HomeWork2.arrays;
-
-import static HomeWork2.arrays.ArraysUtils2.arrayFromConsole;
+package home_work_2.arrays;
+import static home_work_2.arrays.ArraysUtils2.arrayFromConsole;
 
 public class ArraysIteration1 {
     public static void main(String[] args) {
